@@ -9,12 +9,12 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.KidsApp"
+        android:theme="@style/Theme.KidsApp.NoActionBar"
         tools:targetApi="31" >
         <activity
             android:name=".Home"
             android:label="Home"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".Loading_Screen"
             android:exported="true" >

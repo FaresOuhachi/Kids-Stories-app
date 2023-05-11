@@ -13,7 +13,7 @@ public class Loading_Screen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_loading_screen);
 
-        getSupportActionBar().hide();
+//        getSupportActionBar().hide();
 
         new Handler().postDelayed(() -> {
             Intent intent = new Intent(this, Home.class);
