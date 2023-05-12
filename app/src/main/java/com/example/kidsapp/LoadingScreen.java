@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
-public class Loading_Screen extends AppCompatActivity {
+public class LoadingScreen extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,7 +16,7 @@ public class Loading_Screen extends AppCompatActivity {
 //        getSupportActionBar().hide();
 
         new Handler().postDelayed(() -> {
-            Intent intent = new Intent(this, Home.class);
+            Intent intent = new Intent(this, MainActivity.class);
             startActivity(intent);
             finish();
         }, 3900);
