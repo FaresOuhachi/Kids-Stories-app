@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         BadgeDrawable badgeDrawable = bottomNavigationView.getOrCreateBadge(R.id.notification);
         badgeDrawable.setVisible(true);
         badgeDrawable.setNumber(12);
+        badgeDrawable.setBackgroundColor(getResources().getColor(R.color.orange_red_lighter));
         bottomNavigationView.setItemIconTintList(null);
         bottomNavigationView.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
             @Override

@@ -13,4 +13,6 @@
 
     <color name="orange_red_light">#E85C50</color>
     <color name="yellow_light">#E1C379</color>
+
+    <color name="orange_red_lighter">#FDAB85</color>
   </resources>
