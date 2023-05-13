@@ -1,6 +1,8 @@
 package com.example.kidsapp;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -9,6 +11,9 @@ import com.google.android.material.badge.BadgeDrawable;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class MainActivity extends AppCompatActivity {
 
     BottomNavigationView bottomNavigationView;
@@ -16,6 +21,8 @@ public class MainActivity extends AppCompatActivity {
     HomeFragment homeFragment = new HomeFragment();
     OptionsFragment settingsFragment = new OptionsFragment();
     FavoritesFragment notificationFragment = new FavoritesFragment();
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
                 return false;
             }
         });
+
 
     }
 }
