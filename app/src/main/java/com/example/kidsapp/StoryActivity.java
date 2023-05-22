@@ -2,11 +2,13 @@ package com.example.kidsapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
 import android.util.Log;
 import android.widget.TextView;
 
+import java.util.HashMap;
 import java.util.Locale;
 
 public class StoryActivity extends AppCompatActivity implements TextToSpeech.OnInitListener {
@@ -18,6 +20,13 @@ public class StoryActivity extends AppCompatActivity implements TextToSpeech.OnI
         setContentView(R.layout.activity_story);
         text = findViewById(R.id.story_text);
         textToSpeech = new TextToSpeech(this, this);
+
+        Intent intent = getIntent();
+        HashMap<Integer, String> story = (HashMap<Integer, String>)intent.getSerializableExtra("views");
+        System.out.println( story.get(1));
+        String data = intent.getStringExtra("title");
+        System.out.println( data);
+        System.out.println( "ZEHIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII");
     }
 
     @Override

@@ -26,30 +26,27 @@
             android:paddingTop="25dp"
             android:src="@drawable/kids_dog" />
 
-        <Button
+        <ImageButton
             android:id="@+id/story_previousbtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:layout_alignParentLeft="true"
-            android:text="Left"
-            android:textSize="20dp"
-            android:textColor="@color/white"
-            android:backgroundTint="@color/orange_red_light"
+            android:src="@drawable/btngauche"
+            android:background="@android:color/transparent"
             android:layout_marginStart="20dp"
             android:layout_marginTop="10dp"
+
             />
 
-        <Button
+        <ImageButton
             android:id="@+id/story_nextbtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:layout_alignParentRight="true"
-            android:text="Right"
-            android:textSize="20dp"
-            android:textColor="@color/white"
-            android:backgroundTint="@color/orange_red_light"
+            android:src="@drawable/btndroite"
+            android:background="@android:color/transparent"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="30dp"/>
     </RelativeLayout>

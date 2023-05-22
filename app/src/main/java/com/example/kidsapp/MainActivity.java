@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
     HomeFragment homeFragment = new HomeFragment();
     OptionsFragment settingsFragment = new OptionsFragment();
-    FavoritesFragment notificationFragment = new FavoritesFragment();
+    FavoritesFragment favoritesFragment = new FavoritesFragment();
 
 
 
@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
                         getSupportFragmentManager().beginTransaction().replace(R.id.container,homeFragment).commit();
                         return true;
                     case R.id.notification:
-                        getSupportFragmentManager().beginTransaction().replace(R.id.container,notificationFragment).commit();
+                        getSupportFragmentManager().beginTransaction().replace(R.id.container,favoritesFragment).commit();
                         return true;
                     case R.id.settings:
                         getSupportFragmentManager().beginTransaction().replace(R.id.container,settingsFragment).commit();
