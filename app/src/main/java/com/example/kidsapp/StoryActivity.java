@@ -1,32 +1,38 @@
 package com.example.kidsapp;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
 import android.util.Log;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import java.util.HashMap;
 import java.util.Locale;
+import java.util.Map;
 
 public class StoryActivity extends AppCompatActivity implements TextToSpeech.OnInitListener {
 
     TextView text;
     TextToSpeech textToSpeech;
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_story);
         text = findViewById(R.id.story_text);
         textToSpeech = new TextToSpeech(this, this);
-
+        Map<Integer, String> views = new HashMap<>();
         Intent intent = getIntent();
-        HashMap<Integer, String> story = (HashMap<Integer, String>)intent.getSerializableExtra("views");
-        System.out.println( story.get(1));
-        String data = intent.getStringExtra("title");
-        System.out.println( data);
-        System.out.println( "ZEHIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII");
+        int[] image = intent.getIntArrayExtra("images");
+        String[] text = intent.getStringArrayExtra("texts");
+
+        for (int i = 0; i < image.length; i++) {
+            views.put(image[i], text[i]);
+        }
+
+        System.out.println(views);
+        System.out.println("ZEHIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII");
     }
 
     @Override
