@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
 import android.util.Log;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -14,13 +15,17 @@ import java.util.Map;
 
 public class StoryActivity extends AppCompatActivity implements TextToSpeech.OnInitListener {
 
-    TextView text;
+    TextView story_text;
     TextToSpeech textToSpeech;
+
+    ImageView story_image;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_story);
-        text = findViewById(R.id.story_text);
+        story_text = findViewById(R.id.story_text);
+        story_image = findViewById(R.id.story_image);
+
         textToSpeech = new TextToSpeech(this, this);
         Map<Integer, String> views = new HashMap<>();
         Intent intent = getIntent();
@@ -32,6 +37,9 @@ public class StoryActivity extends AppCompatActivity implements TextToSpeech.OnI
         }
 
         System.out.println(views);
+
+        story_text.setText(views.get(image[0]).toString());
+
         System.out.println("ZEHIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII");
     }
 
@@ -44,7 +52,7 @@ public class StoryActivity extends AppCompatActivity implements TextToSpeech.OnI
                 Log.e("TTS", "Language not supported");
             } else {
                 // Text-to-speech is ready
-                speakOut(text.getText().toString());
+                speakOut(story_text.getText().toString());
             }
         } else {
             Log.e("TTS", "Initialization failed");
@@ -66,8 +74,8 @@ public class StoryActivity extends AppCompatActivity implements TextToSpeech.OnI
     @Override
     protected void onResume() {
         super.onResume();
-        if (textToSpeech != null && text != null) {
-            speakOut(text.getText().toString());
+        if (textToSpeech != null && story_text != null) {
+            speakOut(story_text.getText().toString());
         }
     }
 
