@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stories>
+    <storyStructure>
+        <id>1</id>
+        <cover>1</cover>
+        <title>The Cat in the Hat</title>
+        <author>Dr. Seuss</author>
+        <pages>
+            <page>
+                <num>1</num>
+                <image>cover1</image>
+                <text>Text_1</text>
+            </page>
+            <page>
+                <num>2</num>
+                <image>cover2</image>
+                <text>Text_2</text>
+            </page>
+        </pages>
+    </storyStructure>
+
+    <storyStructure>
+        <id>2</id>
+        <cover>2</cover>
+        <title>Where the Wild Things Are</title>
+        <author>Maurice Sendak</author>
+        <pages>
+            <page>
+                <num>1</num>
+                <image>cover3</image>
+                <text>Text_3</text>
+            </page>
+            <page>
+                <num>2</num>
+                <image>cover4</image>
+                <text>Text_4</text>
+            </page>
+        </pages>
+    </storyStructure>
+
+    <storyStructure>
+        <id>3</id>
+        <cover>3</cover>
+        <title>Green Eggs and Ham</title>
+        <author>Dr. Seuss</author>
+        <pages>
+            <page>
+                <num>1</num>
+                <image>cover5</image>
+                <text>Text_5</text>
+            </page>
+            <page>
+                <num>2</num>
+                <image>cover6</image>
+                <text>Text_6</text>
+            </page>
+            <page>
+                <num>3</num>
+                <image>cover7</image>
+                <text>Text_7</text>
+            </page>
+        </pages>
+    </storyStructure>
+
+    <storyStructure>
+        <id>4</id>
+        <cover>4</cover>
+        <title>Curious George</title>
+        <author>H. A. Rey</author>
+        <pages>
+            <page>
+                <num>1</num>
+                <image>cover8</image>
+                <text>Text_8</text>
+            </page>
+            <page>
+                <num>2</num>
+                <image>cover9</image>
+                <text>Text_9</text>
+            </page>
+        </pages>
+    </storyStructure>
+
+    <storyStructure>
+        <id>5</id>
+        <cover>5</cover>
+        <title>Charlotte's Web</title>
+        <author>E. B. White</author>
+        <pages>
+            <page>
+                <num>1</num>
+                <image>cover11</image>
+                <text>Text_11</text>
+            </page>
+            <page>
+                <num>2</num>
+                <image>cover12</image>
+                <text>Text_12</text>
+            </page>
+        </pages>
+    </storyStructure>
+
+    <storyStructure>
+        <id>6</id>
+        <cover>6</cover>
+        <title>The Very Hungry Caterpillar</title>
+        <author>Eric Carle</author>
+        <pages>
+            <page>
+                <num>1</num>
+                <image>cover13</image>
+                <text>Text_13</text>
+            </page>
+            <page>
+                <num>2</num>
+                <image>cover14</image>
+                <text>Text_14</text>
+            </page>
+        </pages>
+    </storyStructure>
+
+    <storyStructure>
+        <id>7</id>
+        <cover>7</cover>
+        <title>Goodnight Moon</title>
+        <author>Margaret Wise Brown</author>
+        <pages>
+            <page>
+                <num>1</num>
+                <image>cover15</image>
+                <text>Text_15</text>
+            </page>
+            <page>
+                <num>2</num>
+                <image>cover16</image>
+                <text>Text_16</text>
+            </page>
+        </pages>
+    </storyStructure>
+
+    <storyStructure>
+        <id>8</id>
+        <cover>8</cover>
+        <title>Corduroy</title>
+        <author>Don Freeman</author>
+        <pages>
+            <page>
+                <num>1</num>
+                <image>cover17</image>
+                <text>Text_17</text>
+            </page>
+            <page>
+                <num>2</num>
+                <image>cover18</image>
+                <text>Text_18</text>
+            </page>
+        </pages>
+    </storyStructure>
+
+    <storyStructure>
+        <id>9</id>
+        <cover>9</cover>
+        <title>The Giving Tree</title>
+        <author>Shel Silverstein</author>
+        <pages>
+            <page>
+                <num>1</num>
+                <image>cover19</image>
+                <text>Text_19</text>
+            </page>
+            <page>
+                <num>2</num>
+                <image>cover20</image>
+                <text>Text_20</text>
+            </page>
+        </pages>
+    </storyStructure>
+
+    <storyStructure>
+        <id>10</id>
+        <cover>10</cover>
+        <title>Harold and the Purple Crayon</title>
+        <author>Crockett Johnson</author>
+        <pages>
+            <page>
+                <num>1</num>
+                <image>cover21</image>
+                <text>Text_21</text>
+            </page>
+            <page>
+                <num>2</num>
+                <image>cover22</image>
+                <text>Text_22</text>
+            </page>
+        </pages>
+    </storyStructure>
+
+    <storyStructure>
+        <id>11</id>
+        <cover>11</cover>
+        <title>Caps for Sale</title>
+        <author>Esphyr Slobodkina</author>
+        <pages>
+            <page>
+                <num>1</num>
+                <image>cover23</image>
+                <text>Text_23</text>
+            </page>
+            <page>
+                <num>2</num>
+                <image>cover24</image>
+                <text>Text_24</text>
+            </page>
+        </pages>
+    </storyStructure>
+
+    <storyStructure>
+        <id>12</id>
+        <cover>12</cover>
+        <title>The Tale of Peter Rabbit</title>
+        <author>Beatrix Potter</author>
+        <pages>
+            <page>
+                <num>1</num>
+                <image>cover25</image>
+                <text>Text_25</text>
+            </page>
+            <page>
+                <num>2</num>
+                <image>cover26</image>
+                <text>Text_26</text>
+            </page>
+        </pages>
+    </storyStructure>
+
+    <storyStructure>
+        <id>13</id>
+        <cover>13</cover>
+        <title>Make Way for Ducklings</title>
+        <author>Robert McCloskey</author>
+        <pages>
+            <page>
+                <num>1</num>
+                <image>cover27</image>
+                <text>Text_27</text>
+            </page>
+            <page>
+                <num>2</num>
+                <image>cover28</image>
+                <text>Text_28</text>
+            </page>
+        </pages>
+    </storyStructure>
+
+    <storyStructure>
+        <id>14</id>
+        <cover>14</cover>
+        <title>Mike Mulligan and His Steam Shovel</title>
+        <author>Virginia Lee Burton</author>
+        <pages>
+            <page>
+                <num>1</num>
+                <image>cover29</image>
+                <text>Text_29</text>
+            </page>
+            <page>
+                <num>2</num>
+                <image>cover30</image>
+                <text>Text_30</text>
+            </page>
+        </pages>
+    </storyStructure>
+
+    <storyStructure>
+        <id>15</id>
+        <cover>15</cover>
+        <title>Frog and Toad Are Friends</title>
+        <author>Arnold Lobel</author>
+        <pages>
+            <page>
+                <num>1</num>
+                <image>cover31</image>
+                <text>Text_31</text>
+            </page>
+            <page>
+                <num>2</num>
+                <image>cover32</image>
+                <text>Text_32</text>
+            </page>
+        </pages>
+    </storyStructure>
+
+    <storyStructure>
+        <id>16</id>
+        <cover>16</cover>
+        <title>Cloudy With a Chance of Meatballs</title>
+        <author>Judi Barrett</author>
+        <pages>
+            <page>
+                <num>1</num>
+                <image>cover33</image>
+                <text>Text_33</text>
+            </page>
+            <page>
+                <num>2</num>
+                <image>cover34</image>
+                <text>Text_34</text>
+            </page>
+        </pages>
+    </storyStructure>
+
+    <storyStructure>
+        <id>17</id>
+        <cover>17</cover>
+        <title>The Little Engine That Could</title>
+        <author>Watty Piper</author>
+        <pages>
+            <page>
+                <num>1</num>
+                <image>cover35</image>
+                <text>Text_35</text>
+            </page>
+            <page>
+                <num>2</num>
+                <image>cover36</image>
+                <text>Text_36</text>
+            </page>
+        </pages>
+    </storyStructure>
+
+    <storyStructure>
+        <id>18</id>
+        <cover>18</cover>
+        <title>The Snowy Day</title>
+        <author>Ezra Jack Keats</author>
+        <pages>
+            <page>
+                <num>1</num>
+                <image>cover37</image>
+                <text>Text_37</text>
+            </page>
+            <page>
+                <num>2</num>
+                <image>cover38</image>
+                <text>Text_38</text>
+            </page>
+        </pages>
+    </storyStructure>
+
+    <storyStructure>
+        <id>19</id>
+        <cover>19</cover>
+        <title>The Magic School Bus</title>
+        <author>Joanna Cole</author>
+        <pages>
+            <page>
+                <num>1</num>
+                <image>cover39</image>
+                <text>Text_39</text>
+            </page>
+            <page>
+                <num>2</num>
+                <image>cover40</image>
+                <text>Text_40</text>
+            </page>
+        </pages>
+    </storyStructure>
+
+    <storyStructure>
+        <id>20</id>
+        <cover>20</cover>
+        <title>Madeline</title>
+        <author>Ludwig Bemelmans</author>
+        <pages>
+            <page>
+                <num>1</num>
+                <image>cover41</image>
+                <text>Text_41</text>
+            </page>
+            <page>
+                <num>2</num>
+                <image>cover42</image>
+                <text>Text_42</text>
+            </page>
+        </pages>
+    </storyStructure>
+
+    <storyStructure>
+        <id>21</id>
+        <cover>21</cover>
+        <title>Pippi Longstocking</title>
+        <author>Astrid Lindgren</author>
+        <pages>
+            <page>
+                <num>1</num>
+                <image>cover43</image>
+                <text>Text_43</text>
+            </page>
+            <page>
+                <num>2</num>
+                <image>cover44</image>
+                <text>Text_44</text>
+            </page>
+        </pages>
+    </storyStructure>
+
+    <storyStructure>
+        <id>22</id>
+        <cover>22</cover>
+        <title>The Phantom Tollbooth</title>
+        <author>Norton Juster</author>
+        <pages>
+            <page>
+                <num>1</num>
+                <image>cover45</image>
+                <text>Text_45</text>
+            </page>
+            <page>
+                <num>2</num>
+                <image>cover46</image>
+                <text>Text_46</text>
+            </page>
+        </pages>
+    </storyStructure>
+
+    <storyStructure>
+        <id>23</id>
+        <cover>23</cover>
+        <title>The Velveteen Rabbit</title>
+        <author>Margery Williams</author>
+        <pages>
+            <page>
+                <num>1</num>
+                <image>cover47</image>
+                <text>Text_47</text>
+            </page>
+            <page>
+                <num>2</num>
+                <image>cover48</image>
+                <text>Text_48</text>
+            </page>
+        </pages>
+    </storyStructure>
+
+    <storyStructure>
+        <id>24</id>
+        <cover>24</cover>
+        <title>Stuart Little</title>
+        <author>E. B. White</author>
+        <pages>
+            <page>
+                <num>1</num>
+                <image>cover49</image>
+                <text>Text_49</text>
+            </page>
+            <page>
+                <num>2</num>
+                <image>cover50</image>
+                <text>Text_50</text>
+            </page>
+        </pages>
+    </storyStructure>
+
+    <storyStructure>
+        <id>25</id>
+        <cover>25</cover>
+        <title>The Secret</title>
+        <author>Frances Hodgson Burnett</author>
+        <pages>
+            <page>
+                <num>1</num>
+                <image>cover51</image>
+                <text>Text_51</text>
+            </page>
+            <page>
+                <num>2</num>
+                <image>cover52</image>
+                <text>Text_52</text>
+            </page>
+        </pages>
+    </storyStructure>
+</stories>

@@ -27,11 +27,7 @@ public class StoryActivity extends AppCompatActivity implements TextToSpeech.OnI
 
     ImageView story_image;
 
-    private static String getElementValue(Element parentElement, String elementName) {
-        NodeList nodeList = parentElement.getElementsByTagName(elementName);
-        Element element = (Element) nodeList.item(0);
-        return element.getTextContent();
-    }
+
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,18 +36,14 @@ public class StoryActivity extends AppCompatActivity implements TextToSpeech.OnI
         story_image = findViewById(R.id.story_image);
 
         textToSpeech = new TextToSpeech(this, this);
-        Map<Integer, String> views = new HashMap<>();
+
         Intent intent = getIntent();
-        int[] image = intent.getIntArrayExtra("images");
-        String[] text = intent.getStringArrayExtra("texts");
+        Bundle args = intent.getBundleExtra("Pages");
+        ArrayList<Page> pages = (ArrayList<Page>) args.getSerializable("Array");
 
-        for (int i = 0; i < image.length; i++) {
-            views.put(image[i], text[i]);
-        }
 
-        System.out.println(views);
-
-        story_text.setText(views.get(image[0]));
+            story_text.setText(pages.get(0).getText());
+            story_image.setImageResource(pages.get(0).getImage());
 
     }
     @Override
