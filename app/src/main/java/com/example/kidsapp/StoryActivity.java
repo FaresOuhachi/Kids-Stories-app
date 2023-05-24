@@ -91,13 +91,14 @@ public class StoryActivity extends AppCompatActivity implements TextToSpeech.OnI
                         parser.next();
                         if (tagName.equals("storyStructure")) {
                             // Extract the storyStructure attributes
+                            storyStructure = new StoryStructure(id, title, author);
                             title = "";
                             author = "";
 
                             // Create a new StoryStructure object
                             storyStructure.setTitle(title);
                             storyStructure.setAuthor(author);
-                        }else if (tagName.equals("id")) {
+                        } else if (tagName.equals("id")) {
                             id = Integer.parseInt(parser.getText());
                             storyStructure.setId(id);
 
@@ -111,14 +112,14 @@ public class StoryActivity extends AppCompatActivity implements TextToSpeech.OnI
                                     storyStructure.setAuthor(author);
                                 }
                             }
-                        } else if (tagName.equals("num")){
+                        } else if (tagName.equals("num")) {
                             pageNum = Integer.parseInt(parser.getText());
                             page.setPageNum(pageNum);
                         }
                         // Get the pages element
-                         else if (tagName.equals("page")) {
+                        else if (tagName.equals("page")) {
                             // Extract the page attributes
-
+                            page = new Page(pageNum, img, texts);
                             img = 0;
                             texts = "";
                             // Create a new Page object
@@ -131,8 +132,7 @@ public class StoryActivity extends AppCompatActivity implements TextToSpeech.OnI
                                 img = Integer.parseInt(parser.getText());
                                 page.setImage(img);
                             }
-                        }
-                        else if (tagName.equals("text")) {
+                        } else if (tagName.equals("text")) {
                             // Get the text value of image and text elements
                             if (parser.getEventType() == XmlPullParser.TEXT) {
                                 texts = parser.getText();
@@ -149,9 +149,6 @@ public class StoryActivity extends AppCompatActivity implements TextToSpeech.OnI
                                 stories_list.add(storyStructure);
 
                                 Log.e("Story add", "Story added to stories_list");
-
-                                // Process the completed storyStructure object
-                                System.out.println("storystructure: " + storyStructure);
                                 // Reset the storyStructure object
                             } else {
                                 Log.e("StoryActivity", "Null storyStructure object");
@@ -163,17 +160,19 @@ public class StoryActivity extends AppCompatActivity implements TextToSpeech.OnI
                         break;
 
                 }
-
-                for (StoryStructure item : stories_list) {
-                    // Process each element
-                    System.out.println(item.toString());
-                }
                 // Move to the next event
                 eventType = parser.next();
+            }
+            System.out.println(stories_list);
+            for (StoryStructure item : stories_list) {
+                // Process each element
+                System.out.println(item.toString());
             }
         } catch (Exception e) {
             e.printStackTrace();
         }
+
+
         System.out.println("------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
     }
 
