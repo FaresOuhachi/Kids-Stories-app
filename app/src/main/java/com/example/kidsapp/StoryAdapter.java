@@ -7,6 +7,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.viewpager2.widget.ViewPager2;
 
 import java.util.List;
 
@@ -15,6 +16,7 @@ public class StoryAdapter extends RecyclerView.Adapter<StoryAdapter.ViewHolder> 
     private final List<StoryStructure> items;
 
     private final ItemClickListener mItemListener;
+
 
 
     public StoryAdapter(List<StoryStructure> items, ItemClickListener itemClickListener) {
@@ -31,7 +33,8 @@ public class StoryAdapter extends RecyclerView.Adapter<StoryAdapter.ViewHolder> 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
         StoryStructure item = items.get(position);
-        holder.imageView.setImageResource(item.getImageResource());
+        holder.imageView.setImageResource(R.drawable.cover1);
+//        holder.imageView.setImageResource(item.getImageResource());
         holder.title.setText(item.getTitle());
         holder.author.setText(item.getAuthor());
 

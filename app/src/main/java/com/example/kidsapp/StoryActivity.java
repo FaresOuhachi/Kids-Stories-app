@@ -4,10 +4,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
 import android.util.Log;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.viewpager.widget.ViewPager;
+import androidx.viewpager2.widget.ViewPager2;
 
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
@@ -24,26 +27,57 @@ public class StoryActivity extends AppCompatActivity implements TextToSpeech.OnI
 
     TextView story_text;
     TextToSpeech textToSpeech;
+    ViewPager viewPager;
 
-    ImageView story_image;
-
-
+    ImageView previousBtn,nextBtn;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_story);
-        story_text = findViewById(R.id.story_text);
-        story_image = findViewById(R.id.story_image);
-
+        viewPager = findViewById(R.id.viewPager);
+        nextBtn = findViewById(R.id.story_nextbtn);
+        previousBtn = findViewById(R.id.story_previousbtn);
         textToSpeech = new TextToSpeech(this, this);
-
         Intent intent = getIntent();
         Bundle args = intent.getBundleExtra("Pages");
         ArrayList<Page> pages = (ArrayList<Page>) args.getSerializable("Array");
+        viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+            @Override
+            public void onPageSelected(int position) {
+                }
 
+            @Override
+            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+                if(viewPager.getCurrentItem() == 0){
+                    previousBtn.setVisibility(ViewPager.GONE);
+                }
+                else {
+                    previousBtn.setVisibility(ViewPager.VISIBLE);
+                }
 
-            story_text.setText(pages.get(0).getText());
-            story_image.setImageResource(pages.get(0).getImage());
+                if(viewPager.getCurrentItem() == pages.size()-1){
+                    nextBtn.setVisibility(ViewPager.GONE);
+                }
+                else {
+                    nextBtn.setVisibility(ViewPager.VISIBLE);
+                }
+            }
+            @Override
+            public void onPageScrollStateChanged(int state) {
+                //Do Nothing
+            }
+        });
+        previousBtn.setOnClickListener(v -> {
+            viewPager.setCurrentItem(getItem(-1), true);
+        });
+
+        nextBtn.setOnClickListener(v -> {
+            viewPager.setCurrentItem(getItem(+1), true);
+        });
+
+        viewPagerAdapter viewAdapter = new viewPagerAdapter(StoryActivity.this, pages);
+        viewPager.setAdapter(viewAdapter);
+        viewPager.setCurrentItem(0);
 
     }
     @Override
@@ -55,7 +89,7 @@ public class StoryActivity extends AppCompatActivity implements TextToSpeech.OnI
                 Log.e("TTS", "Language not supported");
             } else {
                 // Text-to-speech is ready
-                speakOut(story_text.getText().toString());
+                speakOut("nothing");
             }
         } else {
             Log.e("TTS", "Initialization failed");
@@ -90,5 +124,9 @@ public class StoryActivity extends AppCompatActivity implements TextToSpeech.OnI
             textToSpeech.stop();
             textToSpeech.shutdown();
         }
+    }
+
+    private int getItem(int i){
+        return viewPager.getCurrentItem() + i;
     }
 }

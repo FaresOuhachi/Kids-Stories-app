@@ -2,7 +2,7 @@ package com.example.kidsapp;
 
 import java.io.Serializable;
 
-public class Page {
+public class Page implements Serializable{
     private Integer pageNum;
     private Integer image;
     private String text;
@@ -13,12 +13,17 @@ public class Page {
         this.text = text;
     }
 
+    private String getPackageName() {
+        return "com.example.kidsapp";
+    }
+
     public int getPageNum() {
         return pageNum;
     }
 
     public int getImage() {
         return image;
+
     }
 
     public String getText() {

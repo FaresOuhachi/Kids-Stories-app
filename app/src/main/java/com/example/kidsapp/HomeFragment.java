@@ -2,7 +2,6 @@ package com.example.kidsapp;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Parcelable;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -20,9 +19,6 @@ import java.io.InputStream;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 
 public class HomeFragment extends Fragment {
@@ -39,6 +35,7 @@ public class HomeFragment extends Fragment {
         mRecyclerView = view.findViewById(R.id.recycler_view);
         mRecyclerView.setLayoutManager(new GridLayoutManager(getActivity(), 3));
 
+        List<StoryStructure> items = new ArrayList<>();
         //Getting all the data from stories.xml
 
         try {
@@ -133,51 +130,46 @@ public class HomeFragment extends Fragment {
 
                     case XmlPullParser.END_TAG:
                         tagName = parser.getName();
-                        Log.e("tag Closed", tagName);
                         if (tagName.equals("storyStructure")) {
                             if (storyStructure != null) {
                                 stories_list.add(storyStructure);
-
-                                Log.e("Story add", "Story added to stories_list");
-
                             } else {
                                 Log.e("StoryActivity", "Null storyStructure object");
                             }
                         } else if (tagName.equals("page")) {
                             storyStructure.addPage(page);
-                            Log.e("Page add", "Page added to storyStructure");
                         }
                         break;
 
                 }
-
+                Log.e("Tnaket","stories_list");
                 eventType = parser.next();
 
-                List<StoryStructure> items = stories_list;
-
-                mAdapter = new StoryAdapter(items, new StoryAdapter.ItemClickListener() {
-                    @Override
-                    public void onItemClick(StoryStructure item) {
-                        showToast(item.getTitle() + "Clicked");
-                        int id_selected = item.getId();
-                        ArrayList<Page> pages = (ArrayList<Page>) item.getPages();
-                        Intent intent = new Intent(getActivity(), StoryActivity.class);
-                        Bundle args = new Bundle();
-                        args.putSerializable("Array", (Serializable) item.getPages());
-                        intent.putExtra("Pages", args);
-
-                        startActivity(intent);
-                    }
-                });
-
-                mRecyclerView.setAdapter(mAdapter);
-
-            }
+            };
+            items = stories_list;
+            System.out.println("items size: "+ items.size());
 
         } catch (Exception e) {
             e.printStackTrace();
         }
 
+        mAdapter = new StoryAdapter(items, new StoryAdapter.ItemClickListener() {
+            @Override
+            public void onItemClick(StoryStructure item) {
+                showToast(item.getTitle() + "Clicked");
+                ArrayList<Page> pages = (ArrayList<Page>) item.getPages();
+                pages.forEach(Page -> {
+                    Page.setImage(getContext().getResources().getIdentifier("image" + Page.getImage(), "drawable", getContext().getPackageName()));
+                });
+                Intent intent = new Intent(getActivity(), StoryActivity.class);
+                Bundle args = new Bundle();
+                args.putSerializable("Array", (Serializable) item.getPages());
+                intent.putExtra("Pages", args);
+
+                startActivity(intent);
+            }
+        });
+        mRecyclerView.setAdapter(mAdapter);
         return view;
     }
 
