@@ -1,4 +1,4 @@
-package com.example.kidsapp;
+package com.example.kidsapp.Fragments;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,6 +11,12 @@ import android.widget.Toast;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.kidsapp.Adapters.StoryAdapter;
+import com.example.kidsapp.Classes.Page;
+import com.example.kidsapp.R;
+import com.example.kidsapp.Activities.StoryActivity;
+import com.example.kidsapp.Classes.StoryStructure;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserFactory;
@@ -60,7 +66,8 @@ public class HomeFragment extends Fragment {
             Integer img = 0;
             int cover = 0;
             String texts = "";
-            StoryStructure storyStructure = new StoryStructure(id, cover, title, author);
+            String fav = "0";
+            StoryStructure storyStructure = new StoryStructure(id, cover, title, author,fav);
             Page page = new Page(pageNum, img, texts);
             ArrayList<StoryStructure> stories_list = new ArrayList<>();
 
@@ -74,7 +81,7 @@ public class HomeFragment extends Fragment {
                         parser.next();
                         if (tagName.equals("storyStructure")) {
 
-                            storyStructure = new StoryStructure(id, cover, title, author);
+                            storyStructure = new StoryStructure(id, cover, title, author,fav);
                             title = "";
                             author = "";
 
@@ -152,8 +159,11 @@ public class HomeFragment extends Fragment {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
+        items.forEach(StoryStructure -> {
+            StoryStructure.setImageResource(getContext().getResources().getIdentifier("cover" + StoryStructure.getImageResource(), "drawable", getContext().getPackageName()));
+        });
         mAdapter = new StoryAdapter(items, new StoryAdapter.ItemClickListener() {
+
             @Override
             public void onItemClick(StoryStructure item) {
                 showToast(item.getTitle() + "Clicked");

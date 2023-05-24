@@ -1,27 +1,21 @@
-package com.example.kidsapp;
+package com.example.kidsapp.Activities;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
 import android.util.Log;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
-import androidx.viewpager2.widget.ViewPager2;
 
-import org.w3c.dom.Element;
-import org.w3c.dom.NodeList;
-import org.xmlpull.v1.XmlPullParser;
-import org.xmlpull.v1.XmlPullParserFactory;
+import com.example.kidsapp.Adapters.viewPagerAdapter;
+import com.example.kidsapp.Classes.Page;
+import com.example.kidsapp.R;
 
-import java.io.InputStream;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.Locale;
-import java.util.Map;
 
 public class StoryActivity extends AppCompatActivity implements TextToSpeech.OnInitListener {
 

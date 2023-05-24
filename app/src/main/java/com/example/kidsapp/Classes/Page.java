@@ -1,4 +1,4 @@
-package com.example.kidsapp;
+package com.example.kidsapp.Classes;
 
 import java.io.Serializable;
 

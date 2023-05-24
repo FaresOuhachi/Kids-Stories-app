@@ -1,18 +1,17 @@
-package com.example.kidsapp;
+package com.example.kidsapp.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.GridLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 import android.view.MenuItem;
 
+import com.example.kidsapp.Fragments.FavoritesFragment;
+import com.example.kidsapp.Fragments.HomeFragment;
+import com.example.kidsapp.Fragments.OptionsFragment;
+import com.example.kidsapp.R;
 import com.google.android.material.badge.BadgeDrawable;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 

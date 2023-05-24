@@ -1,4 +1,4 @@
-package com.example.kidsapp;
+package com.example.kidsapp.Adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -9,6 +9,9 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.viewpager.widget.PagerAdapter;
+
+import com.example.kidsapp.Classes.Page;
+import com.example.kidsapp.R;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package com.example.kidsapp;
+package com.example.kidsapp.Classes;
 
 
 import java.io.Serializable;
@@ -12,12 +12,15 @@ public class StoryStructure implements Serializable {
     private String author;
     private List<Page> pages;
 
-    public StoryStructure(Integer id, int imageResource,String title, String author) {
+    private String favStatus;
+
+    public StoryStructure(Integer id, int imageResource,String title, String author,String favStatus) {
         this.id = id;
         this.imageResource = imageResource;
         this.title = title;
         this.author = author;
         this.pages = new ArrayList<>();
+        this.favStatus = favStatus;
     }
 
     public Integer getId() {
@@ -78,6 +81,12 @@ public class StoryStructure implements Serializable {
 
         return sb.toString();
     }
+    public String getFavStatus() {
+        return favStatus;
+    }
 
+    public void setFavStatus(String favStatus) {
+        this.favStatus = favStatus;
+    }
 
 }

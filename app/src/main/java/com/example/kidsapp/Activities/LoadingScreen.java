@@ -1,10 +1,13 @@
-package com.example.kidsapp;
+package com.example.kidsapp.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+
+import com.example.kidsapp.Activities.MainActivity;
+import com.example.kidsapp.R;
 
 public class LoadingScreen extends AppCompatActivity {
 

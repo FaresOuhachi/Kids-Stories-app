@@ -84,7 +84,7 @@
     <storyStructure>
         <id>5</id>
         <cover>5</cover>
-        <title>Charlotte's Web</title>
+        <title>Charlotte`s Web</title>
         <author>E. B. White</author>
         <pages>
             <page>
@@ -381,101 +381,6 @@
                 <num>2</num>
                 <image>42</image>
                 <text>Text_42</text>
-            </page>
-        </pages>
-    </storyStructure>
-
-    <storyStructure>
-        <id>21</id>
-        <cover>21</cover>
-        <title>Pippi Longstocking</title>
-        <author>Astrid Lindgren</author>
-        <pages>
-            <page>
-                <num>1</num>
-                <image>43</image>
-                <text>Text_43</text>
-            </page>
-            <page>
-                <num>2</num>
-                <image>44</image>
-                <text>Text_44</text>
-            </page>
-        </pages>
-    </storyStructure>
-
-    <storyStructure>
-        <id>22</id>
-        <cover>22</cover>
-        <title>The Phantom Tollbooth</title>
-        <author>Norton Juster</author>
-        <pages>
-            <page>
-                <num>1</num>
-                <image>45</image>
-                <text>Text_45</text>
-            </page>
-            <page>
-                <num>2</num>
-                <image>46</image>
-                <text>Text_46</text>
-            </page>
-        </pages>
-    </storyStructure>
-
-    <storyStructure>
-        <id>23</id>
-        <cover>23</cover>
-        <title>The Velveteen Rabbit</title>
-        <author>Margery Williams</author>
-        <pages>
-            <page>
-                <num>1</num>
-                <image>47</image>
-                <text>Text_47</text>
-            </page>
-            <page>
-                <num>2</num>
-                <image>48</image>
-                <text>Text_48</text>
-            </page>
-        </pages>
-    </storyStructure>
-
-    <storyStructure>
-        <id>24</id>
-        <cover>24</cover>
-        <title>Stuart Little</title>
-        <author>E. B. White</author>
-        <pages>
-            <page>
-                <num>1</num>
-                <image>49</image>
-                <text>Text_49</text>
-            </page>
-            <page>
-                <num>2</num>
-                <image>50</image>
-                <text>Text_50</text>
-            </page>
-        </pages>
-    </storyStructure>
-
-    <storyStructure>
-        <id>25</id>
-        <cover>25</cover>
-        <title>The Secret</title>
-        <author>Frances Hodgson Burnett</author>
-        <pages>
-            <page>
-                <num>1</num>
-                <image>51</image>
-                <text>Text_51</text>
-            </page>
-            <page>
-                <num>2</num>
-                <image>52</image>
-                <text>Text_52</text>
             </page>
         </pages>
     </storyStructure>
