@@ -24,10 +24,10 @@
                 android:layout_height="match_parent">
                 <Button
                     android:id="@+id/fav"
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
                     android:layout_margin="10dp"
-                    android:background="@drawable/no_heart"
+                    android:background="@drawable/heart_stroke"
                     app:layout_constraintTop_toTopOf="@+id/cover"
                     app:layout_constraintEnd_toEndOf="@+id/cover"
                 />
@@ -35,7 +35,7 @@
                 <ImageView
                 android:id="@+id/cover"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="150dp"
                 android:adjustViewBounds="true"
                 />
             </androidx.constraintlayout.widget.ConstraintLayout>

@@ -9,12 +9,62 @@
             <page>
                 <num>1</num>
                 <image>1</image>
-                <text>Text_1</text>
+                <text>Dans le jardin de Lily juste derrière sa maison se trouvait un mystère qui attendait d'être résolu </text>
             </page>
             <page>
                 <num>2</num>
                 <image>2</image>
-                <text>Text_2</text>
+                <text>Alors qu'elle creusait pour planter des fleurs Lily a découvert un vieux coffre enfoui dans la terre</text>
+            </page>
+            <page>
+                <num>3</num>
+                <image>3</image>
+                <text>Qu'est-ce qui pouvait bien se trouver à l'intérieur ?</text>
+            </page>
+            <page>
+                <num>4</num>
+                <image>1</image>
+                <text>Avec l'aide de ses amis, Max et Mia, Lily a ouvert le coffre et a trouvé une vieille carte au trésor</text>
+            </page>
+            <page>
+                <num>5</num>
+                <image>2</image>
+                <text>La carte indiquait des endroits secrets dans leur propre quartier !</text>
+            </page>
+            <page>
+                <num>6</num>
+                <image>3</image>
+                <text>Ils ont commencé à chercher des indices et à suivre les instructions pour résoudre le mystère</text>
+            </page>
+            <page>
+                <num>7</num>
+                <image>1</image>
+                <text> Au fur et à mesure que les enfants suivaient les indices, ils ont finalement découvert le secret caché depuis si longtemps</text>
+            </page>
+            <page>
+                <num>8</num>
+                <image>2</image>
+                <text>Il s'agissait d'un trésor perdu datant de l'époque où leur quartier était une ville minière prospère</text>
+            </page>
+            <page>
+                <num>9</num>
+                <image>3</image>
+                <text>Les enfants ont compris que leur propre jardin était en réalité un lien avec le passé</text>
+            </page>
+            <page>
+                <num>10</num>
+                <image>2</image>
+                <text>Les enfants ont réalisé que leur propre jardin était bien plus qu'un simple espace extérieur</text>
+            </page>
+            <page>
+                <num>11</num>
+                <image>3</image>
+                <text>Il était rempli d'histoires et de mystères à découvrir Ils ont décidé de continuer à explorer et à préserver l'histoire de leur quartier</text>
+            </page>
+            <page>
+                <num>12</num>
+                <image>1</image>
+                <text>sachant que de nouvelles aventures les attendaient juste à leur propre porte</text>
             </page>
         </pages>
     </storyStructure>
@@ -27,13 +77,63 @@
         <pages>
             <page>
                 <num>1</num>
-                <image>3</image>
-                <text>Text_3</text>
+                <image>1</image>
+                <text>Dans le jardin de Lily juste derrière sa maison se trouvait un mystère qui attendait d'être résolu </text>
             </page>
             <page>
                 <num>2</num>
-                <image>4</image>
-                <text>Text_4</text>
+                <image>2</image>
+                <text>Alors qu'elle creusait pour planter des fleurs Lily a découvert un vieux coffre enfoui dans la terre</text>
+            </page>
+            <page>
+                <num>3</num>
+                <image>3</image>
+                <text>Qu'est-ce qui pouvait bien se trouver à l'intérieur ?</text>
+            </page>
+            <page>
+                <num>4</num>
+                <image>1</image>
+                <text>Avec l'aide de ses amis, Max et Mia, Lily a ouvert le coffre et a trouvé une vieille carte au trésor</text>
+            </page>
+            <page>
+                <num>5</num>
+                <image>2</image>
+                <text>La carte indiquait des endroits secrets dans leur propre quartier !</text>
+            </page>
+            <page>
+                <num>6</num>
+                <image>3</image>
+                <text>Ils ont commencé à chercher des indices et à suivre les instructions pour résoudre le mystère</text>
+            </page>
+            <page>
+                <num>7</num>
+                <image>1</image>
+                <text> Au fur et à mesure que les enfants suivaient les indices, ils ont finalement découvert le secret caché depuis si longtemps</text>
+            </page>
+            <page>
+                <num>8</num>
+                <image>2</image>
+                <text>Il s'agissait d'un trésor perdu datant de l'époque où leur quartier était une ville minière prospère</text>
+            </page>
+            <page>
+                <num>9</num>
+                <image>3</image>
+                <text>Les enfants ont compris que leur propre jardin était en réalité un lien avec le passé</text>
+            </page>
+            <page>
+                <num>10</num>
+                <image>2</image>
+                <text>Les enfants ont réalisé que leur propre jardin était bien plus qu'un simple espace extérieur</text>
+            </page>
+            <page>
+                <num>11</num>
+                <image>3</image>
+                <text>Il était rempli d'histoires et de mystères à découvrir Ils ont décidé de continuer à explorer et à préserver l'histoire de leur quartier</text>
+            </page>
+            <page>
+                <num>12</num>
+                <image>1</image>
+                <text>sachant que de nouvelles aventures les attendaient juste à leur propre porte</text>
             </page>
         </pages>
     </storyStructure>
@@ -46,18 +146,63 @@
         <pages>
             <page>
                 <num>1</num>
-                <image>5</image>
-                <text>Text_5</text>
+                <image>1</image>
+                <text>Dans le jardin de Lily juste derrière sa maison se trouvait un mystère qui attendait d'être résolu </text>
             </page>
             <page>
                 <num>2</num>
-                <image>6</image>
-                <text>Text_6</text>
+                <image>2</image>
+                <text>Alors qu'elle creusait pour planter des fleurs Lily a découvert un vieux coffre enfoui dans la terre</text>
             </page>
             <page>
                 <num>3</num>
-                <image>7</image>
-                <text>Text_7</text>
+                <image>3</image>
+                <text>Qu'est-ce qui pouvait bien se trouver à l'intérieur ?</text>
+            </page>
+            <page>
+                <num>4</num>
+                <image>1</image>
+                <text>Avec l'aide de ses amis, Max et Mia, Lily a ouvert le coffre et a trouvé une vieille carte au trésor</text>
+            </page>
+            <page>
+                <num>5</num>
+                <image>2</image>
+                <text>La carte indiquait des endroits secrets dans leur propre quartier !</text>
+            </page>
+            <page>
+                <num>6</num>
+                <image>3</image>
+                <text>Ils ont commencé à chercher des indices et à suivre les instructions pour résoudre le mystère</text>
+            </page>
+            <page>
+                <num>7</num>
+                <image>1</image>
+                <text> Au fur et à mesure que les enfants suivaient les indices, ils ont finalement découvert le secret caché depuis si longtemps</text>
+            </page>
+            <page>
+                <num>8</num>
+                <image>2</image>
+                <text>Il s'agissait d'un trésor perdu datant de l'époque où leur quartier était une ville minière prospère</text>
+            </page>
+            <page>
+                <num>9</num>
+                <image>3</image>
+                <text>Les enfants ont compris que leur propre jardin était en réalité un lien avec le passé</text>
+            </page>
+            <page>
+                <num>10</num>
+                <image>2</image>
+                <text>Les enfants ont réalisé que leur propre jardin était bien plus qu'un simple espace extérieur</text>
+            </page>
+            <page>
+                <num>11</num>
+                <image>3</image>
+                <text>Il était rempli d'histoires et de mystères à découvrir Ils ont décidé de continuer à explorer et à préserver l'histoire de leur quartier</text>
+            </page>
+            <page>
+                <num>12</num>
+                <image>1</image>
+                <text>sachant que de nouvelles aventures les attendaient juste à leur propre porte</text>
             </page>
         </pages>
     </storyStructure>
@@ -70,13 +215,63 @@
         <pages>
             <page>
                 <num>1</num>
-                <image>8</image>
-                <text>Text_8</text>
+                <image>1</image>
+                <text>Dans le jardin de Lily juste derrière sa maison se trouvait un mystère qui attendait d'être résolu </text>
             </page>
             <page>
                 <num>2</num>
-                <image>9</image>
-                <text>Text_9</text>
+                <image>2</image>
+                <text>Alors qu'elle creusait pour planter des fleurs Lily a découvert un vieux coffre enfoui dans la terre</text>
+            </page>
+            <page>
+                <num>3</num>
+                <image>3</image>
+                <text>Qu'est-ce qui pouvait bien se trouver à l'intérieur ?</text>
+            </page>
+            <page>
+                <num>4</num>
+                <image>1</image>
+                <text>Avec l'aide de ses amis, Max et Mia, Lily a ouvert le coffre et a trouvé une vieille carte au trésor</text>
+            </page>
+            <page>
+                <num>5</num>
+                <image>2</image>
+                <text>La carte indiquait des endroits secrets dans leur propre quartier !</text>
+            </page>
+            <page>
+                <num>6</num>
+                <image>3</image>
+                <text>Ils ont commencé à chercher des indices et à suivre les instructions pour résoudre le mystère</text>
+            </page>
+            <page>
+                <num>7</num>
+                <image>1</image>
+                <text> Au fur et à mesure que les enfants suivaient les indices, ils ont finalement découvert le secret caché depuis si longtemps</text>
+            </page>
+            <page>
+                <num>8</num>
+                <image>2</image>
+                <text>Il s'agissait d'un trésor perdu datant de l'époque où leur quartier était une ville minière prospère</text>
+            </page>
+            <page>
+                <num>9</num>
+                <image>3</image>
+                <text>Les enfants ont compris que leur propre jardin était en réalité un lien avec le passé</text>
+            </page>
+            <page>
+                <num>10</num>
+                <image>2</image>
+                <text>Les enfants ont réalisé que leur propre jardin était bien plus qu'un simple espace extérieur</text>
+            </page>
+            <page>
+                <num>11</num>
+                <image>3</image>
+                <text>Il était rempli d'histoires et de mystères à découvrir Ils ont décidé de continuer à explorer et à préserver l'histoire de leur quartier</text>
+            </page>
+            <page>
+                <num>12</num>
+                <image>1</image>
+                <text>sachant que de nouvelles aventures les attendaient juste à leur propre porte</text>
             </page>
         </pages>
     </storyStructure>
@@ -89,13 +284,63 @@
         <pages>
             <page>
                 <num>1</num>
-                <image>11</image>
-                <text>Text_11</text>
+                <image>1</image>
+                <text>Dans le jardin de Lily juste derrière sa maison se trouvait un mystère qui attendait d'être résolu </text>
             </page>
             <page>
                 <num>2</num>
-                <image>12</image>
-                <text>Text_12</text>
+                <image>2</image>
+                <text>Alors qu'elle creusait pour planter des fleurs Lily a découvert un vieux coffre enfoui dans la terre</text>
+            </page>
+            <page>
+                <num>3</num>
+                <image>3</image>
+                <text>Qu'est-ce qui pouvait bien se trouver à l'intérieur ?</text>
+            </page>
+            <page>
+                <num>4</num>
+                <image>1</image>
+                <text>Avec l'aide de ses amis, Max et Mia, Lily a ouvert le coffre et a trouvé une vieille carte au trésor</text>
+            </page>
+            <page>
+                <num>5</num>
+                <image>2</image>
+                <text>La carte indiquait des endroits secrets dans leur propre quartier !</text>
+            </page>
+            <page>
+                <num>6</num>
+                <image>3</image>
+                <text>Ils ont commencé à chercher des indices et à suivre les instructions pour résoudre le mystère</text>
+            </page>
+            <page>
+                <num>7</num>
+                <image>1</image>
+                <text> Au fur et à mesure que les enfants suivaient les indices, ils ont finalement découvert le secret caché depuis si longtemps</text>
+            </page>
+            <page>
+                <num>8</num>
+                <image>2</image>
+                <text>Il s'agissait d'un trésor perdu datant de l'époque où leur quartier était une ville minière prospère</text>
+            </page>
+            <page>
+                <num>9</num>
+                <image>3</image>
+                <text>Les enfants ont compris que leur propre jardin était en réalité un lien avec le passé</text>
+            </page>
+            <page>
+                <num>10</num>
+                <image>2</image>
+                <text>Les enfants ont réalisé que leur propre jardin était bien plus qu'un simple espace extérieur</text>
+            </page>
+            <page>
+                <num>11</num>
+                <image>3</image>
+                <text>Il était rempli d'histoires et de mystères à découvrir Ils ont décidé de continuer à explorer et à préserver l'histoire de leur quartier</text>
+            </page>
+            <page>
+                <num>12</num>
+                <image>1</image>
+                <text>sachant que de nouvelles aventures les attendaient juste à leur propre porte</text>
             </page>
         </pages>
     </storyStructure>
@@ -108,13 +353,63 @@
         <pages>
             <page>
                 <num>1</num>
-                <image>13</image>
-                <text>Text_13</text>
+                <image>1</image>
+                <text>Dans le jardin de Lily juste derrière sa maison se trouvait un mystère qui attendait d'être résolu </text>
             </page>
             <page>
                 <num>2</num>
-                <image>14</image>
-                <text>Text_14</text>
+                <image>2</image>
+                <text>Alors qu'elle creusait pour planter des fleurs Lily a découvert un vieux coffre enfoui dans la terre</text>
+            </page>
+            <page>
+                <num>3</num>
+                <image>3</image>
+                <text>Qu'est-ce qui pouvait bien se trouver à l'intérieur ?</text>
+            </page>
+            <page>
+                <num>4</num>
+                <image>1</image>
+                <text>Avec l'aide de ses amis, Max et Mia, Lily a ouvert le coffre et a trouvé une vieille carte au trésor</text>
+            </page>
+            <page>
+                <num>5</num>
+                <image>2</image>
+                <text>La carte indiquait des endroits secrets dans leur propre quartier !</text>
+            </page>
+            <page>
+                <num>6</num>
+                <image>3</image>
+                <text>Ils ont commencé à chercher des indices et à suivre les instructions pour résoudre le mystère</text>
+            </page>
+            <page>
+                <num>7</num>
+                <image>1</image>
+                <text> Au fur et à mesure que les enfants suivaient les indices, ils ont finalement découvert le secret caché depuis si longtemps</text>
+            </page>
+            <page>
+                <num>8</num>
+                <image>2</image>
+                <text>Il s'agissait d'un trésor perdu datant de l'époque où leur quartier était une ville minière prospère</text>
+            </page>
+            <page>
+                <num>9</num>
+                <image>3</image>
+                <text>Les enfants ont compris que leur propre jardin était en réalité un lien avec le passé</text>
+            </page>
+            <page>
+                <num>10</num>
+                <image>2</image>
+                <text>Les enfants ont réalisé que leur propre jardin était bien plus qu'un simple espace extérieur</text>
+            </page>
+            <page>
+                <num>11</num>
+                <image>3</image>
+                <text>Il était rempli d'histoires et de mystères à découvrir Ils ont décidé de continuer à explorer et à préserver l'histoire de leur quartier</text>
+            </page>
+            <page>
+                <num>12</num>
+                <image>1</image>
+                <text>sachant que de nouvelles aventures les attendaient juste à leur propre porte</text>
             </page>
         </pages>
     </storyStructure>
@@ -127,13 +422,63 @@
         <pages>
             <page>
                 <num>1</num>
-                <image>15</image>
-                <text>Text_15</text>
+                <image>1</image>
+                <text>Dans le jardin de Lily juste derrière sa maison se trouvait un mystère qui attendait d'être résolu </text>
             </page>
             <page>
                 <num>2</num>
-                <image>16</image>
-                <text>Text_16</text>
+                <image>2</image>
+                <text>Alors qu'elle creusait pour planter des fleurs Lily a découvert un vieux coffre enfoui dans la terre</text>
+            </page>
+            <page>
+                <num>3</num>
+                <image>3</image>
+                <text>Qu'est-ce qui pouvait bien se trouver à l'intérieur ?</text>
+            </page>
+            <page>
+                <num>4</num>
+                <image>1</image>
+                <text>Avec l'aide de ses amis, Max et Mia, Lily a ouvert le coffre et a trouvé une vieille carte au trésor</text>
+            </page>
+            <page>
+                <num>5</num>
+                <image>2</image>
+                <text>La carte indiquait des endroits secrets dans leur propre quartier !</text>
+            </page>
+            <page>
+                <num>6</num>
+                <image>3</image>
+                <text>Ils ont commencé à chercher des indices et à suivre les instructions pour résoudre le mystère</text>
+            </page>
+            <page>
+                <num>7</num>
+                <image>1</image>
+                <text> Au fur et à mesure que les enfants suivaient les indices, ils ont finalement découvert le secret caché depuis si longtemps</text>
+            </page>
+            <page>
+                <num>8</num>
+                <image>2</image>
+                <text>Il s'agissait d'un trésor perdu datant de l'époque où leur quartier était une ville minière prospère</text>
+            </page>
+            <page>
+                <num>9</num>
+                <image>3</image>
+                <text>Les enfants ont compris que leur propre jardin était en réalité un lien avec le passé</text>
+            </page>
+            <page>
+                <num>10</num>
+                <image>2</image>
+                <text>Les enfants ont réalisé que leur propre jardin était bien plus qu'un simple espace extérieur</text>
+            </page>
+            <page>
+                <num>11</num>
+                <image>3</image>
+                <text>Il était rempli d'histoires et de mystères à découvrir Ils ont décidé de continuer à explorer et à préserver l'histoire de leur quartier</text>
+            </page>
+            <page>
+                <num>12</num>
+                <image>1</image>
+                <text>sachant que de nouvelles aventures les attendaient juste à leur propre porte</text>
             </page>
         </pages>
     </storyStructure>
@@ -146,13 +491,63 @@
         <pages>
             <page>
                 <num>1</num>
-                <image>17</image>
-                <text>Text_17</text>
+                <image>1</image>
+                <text>Dans le jardin de Lily juste derrière sa maison se trouvait un mystère qui attendait d'être résolu </text>
             </page>
             <page>
                 <num>2</num>
-                <image>18</image>
-                <text>Text_18</text>
+                <image>2</image>
+                <text>Alors qu'elle creusait pour planter des fleurs Lily a découvert un vieux coffre enfoui dans la terre</text>
+            </page>
+            <page>
+                <num>3</num>
+                <image>3</image>
+                <text>Qu'est-ce qui pouvait bien se trouver à l'intérieur ?</text>
+            </page>
+            <page>
+                <num>4</num>
+                <image>1</image>
+                <text>Avec l'aide de ses amis, Max et Mia, Lily a ouvert le coffre et a trouvé une vieille carte au trésor</text>
+            </page>
+            <page>
+                <num>5</num>
+                <image>2</image>
+                <text>La carte indiquait des endroits secrets dans leur propre quartier !</text>
+            </page>
+            <page>
+                <num>6</num>
+                <image>3</image>
+                <text>Ils ont commencé à chercher des indices et à suivre les instructions pour résoudre le mystère</text>
+            </page>
+            <page>
+                <num>7</num>
+                <image>1</image>
+                <text> Au fur et à mesure que les enfants suivaient les indices, ils ont finalement découvert le secret caché depuis si longtemps</text>
+            </page>
+            <page>
+                <num>8</num>
+                <image>2</image>
+                <text>Il s'agissait d'un trésor perdu datant de l'époque où leur quartier était une ville minière prospère</text>
+            </page>
+            <page>
+                <num>9</num>
+                <image>3</image>
+                <text>Les enfants ont compris que leur propre jardin était en réalité un lien avec le passé</text>
+            </page>
+            <page>
+                <num>10</num>
+                <image>2</image>
+                <text>Les enfants ont réalisé que leur propre jardin était bien plus qu'un simple espace extérieur</text>
+            </page>
+            <page>
+                <num>11</num>
+                <image>3</image>
+                <text>Il était rempli d'histoires et de mystères à découvrir Ils ont décidé de continuer à explorer et à préserver l'histoire de leur quartier</text>
+            </page>
+            <page>
+                <num>12</num>
+                <image>1</image>
+                <text>sachant que de nouvelles aventures les attendaient juste à leur propre porte</text>
             </page>
         </pages>
     </storyStructure>
@@ -165,13 +560,63 @@
         <pages>
             <page>
                 <num>1</num>
-                <image>19</image>
-                <text>Text_19</text>
+                <image>1</image>
+                <text>Dans le jardin de Lily juste derrière sa maison se trouvait un mystère qui attendait d'être résolu </text>
             </page>
             <page>
                 <num>2</num>
-                <image>20</image>
-                <text>Text_20</text>
+                <image>2</image>
+                <text>Alors qu'elle creusait pour planter des fleurs Lily a découvert un vieux coffre enfoui dans la terre</text>
+            </page>
+            <page>
+                <num>3</num>
+                <image>3</image>
+                <text>Qu'est-ce qui pouvait bien se trouver à l'intérieur ?</text>
+            </page>
+            <page>
+                <num>4</num>
+                <image>1</image>
+                <text>Avec l'aide de ses amis, Max et Mia, Lily a ouvert le coffre et a trouvé une vieille carte au trésor</text>
+            </page>
+            <page>
+                <num>5</num>
+                <image>2</image>
+                <text>La carte indiquait des endroits secrets dans leur propre quartier !</text>
+            </page>
+            <page>
+                <num>6</num>
+                <image>3</image>
+                <text>Ils ont commencé à chercher des indices et à suivre les instructions pour résoudre le mystère</text>
+            </page>
+            <page>
+                <num>7</num>
+                <image>1</image>
+                <text> Au fur et à mesure que les enfants suivaient les indices, ils ont finalement découvert le secret caché depuis si longtemps</text>
+            </page>
+            <page>
+                <num>8</num>
+                <image>2</image>
+                <text>Il s'agissait d'un trésor perdu datant de l'époque où leur quartier était une ville minière prospère</text>
+            </page>
+            <page>
+                <num>9</num>
+                <image>3</image>
+                <text>Les enfants ont compris que leur propre jardin était en réalité un lien avec le passé</text>
+            </page>
+            <page>
+                <num>10</num>
+                <image>2</image>
+                <text>Les enfants ont réalisé que leur propre jardin était bien plus qu'un simple espace extérieur</text>
+            </page>
+            <page>
+                <num>11</num>
+                <image>3</image>
+                <text>Il était rempli d'histoires et de mystères à découvrir Ils ont décidé de continuer à explorer et à préserver l'histoire de leur quartier</text>
+            </page>
+            <page>
+                <num>12</num>
+                <image>1</image>
+                <text>sachant que de nouvelles aventures les attendaient juste à leur propre porte</text>
             </page>
         </pages>
     </storyStructure>
@@ -184,13 +629,63 @@
         <pages>
             <page>
                 <num>1</num>
-                <image>21</image>
-                <text>Text_21</text>
+                <image>1</image>
+                <text>Dans le jardin de Lily juste derrière sa maison se trouvait un mystère qui attendait d'être résolu </text>
             </page>
             <page>
                 <num>2</num>
-                <image>22</image>
-                <text>Text_22</text>
+                <image>2</image>
+                <text>Alors qu'elle creusait pour planter des fleurs Lily a découvert un vieux coffre enfoui dans la terre</text>
+            </page>
+            <page>
+                <num>3</num>
+                <image>3</image>
+                <text>Qu'est-ce qui pouvait bien se trouver à l'intérieur ?</text>
+            </page>
+            <page>
+                <num>4</num>
+                <image>1</image>
+                <text>Avec l'aide de ses amis, Max et Mia, Lily a ouvert le coffre et a trouvé une vieille carte au trésor</text>
+            </page>
+            <page>
+                <num>5</num>
+                <image>2</image>
+                <text>La carte indiquait des endroits secrets dans leur propre quartier !</text>
+            </page>
+            <page>
+                <num>6</num>
+                <image>3</image>
+                <text>Ils ont commencé à chercher des indices et à suivre les instructions pour résoudre le mystère</text>
+            </page>
+            <page>
+                <num>7</num>
+                <image>1</image>
+                <text> Au fur et à mesure que les enfants suivaient les indices, ils ont finalement découvert le secret caché depuis si longtemps</text>
+            </page>
+            <page>
+                <num>8</num>
+                <image>2</image>
+                <text>Il s'agissait d'un trésor perdu datant de l'époque où leur quartier était une ville minière prospère</text>
+            </page>
+            <page>
+                <num>9</num>
+                <image>3</image>
+                <text>Les enfants ont compris que leur propre jardin était en réalité un lien avec le passé</text>
+            </page>
+            <page>
+                <num>10</num>
+                <image>2</image>
+                <text>Les enfants ont réalisé que leur propre jardin était bien plus qu'un simple espace extérieur</text>
+            </page>
+            <page>
+                <num>11</num>
+                <image>3</image>
+                <text>Il était rempli d'histoires et de mystères à découvrir Ils ont décidé de continuer à explorer et à préserver l'histoire de leur quartier</text>
+            </page>
+            <page>
+                <num>12</num>
+                <image>1</image>
+                <text>sachant que de nouvelles aventures les attendaient juste à leur propre porte</text>
             </page>
         </pages>
     </storyStructure>
@@ -203,13 +698,63 @@
         <pages>
             <page>
                 <num>1</num>
-                <image>23</image>
-                <text>Text_23</text>
+                <image>1</image>
+                <text>Dans le jardin de Lily juste derrière sa maison se trouvait un mystère qui attendait d'être résolu </text>
             </page>
             <page>
                 <num>2</num>
-                <image>24</image>
-                <text>Text_24</text>
+                <image>2</image>
+                <text>Alors qu'elle creusait pour planter des fleurs Lily a découvert un vieux coffre enfoui dans la terre</text>
+            </page>
+            <page>
+                <num>3</num>
+                <image>3</image>
+                <text>Qu'est-ce qui pouvait bien se trouver à l'intérieur ?</text>
+            </page>
+            <page>
+                <num>4</num>
+                <image>1</image>
+                <text>Avec l'aide de ses amis, Max et Mia, Lily a ouvert le coffre et a trouvé une vieille carte au trésor</text>
+            </page>
+            <page>
+                <num>5</num>
+                <image>2</image>
+                <text>La carte indiquait des endroits secrets dans leur propre quartier !</text>
+            </page>
+            <page>
+                <num>6</num>
+                <image>3</image>
+                <text>Ils ont commencé à chercher des indices et à suivre les instructions pour résoudre le mystère</text>
+            </page>
+            <page>
+                <num>7</num>
+                <image>1</image>
+                <text> Au fur et à mesure que les enfants suivaient les indices, ils ont finalement découvert le secret caché depuis si longtemps</text>
+            </page>
+            <page>
+                <num>8</num>
+                <image>2</image>
+                <text>Il s'agissait d'un trésor perdu datant de l'époque où leur quartier était une ville minière prospère</text>
+            </page>
+            <page>
+                <num>9</num>
+                <image>3</image>
+                <text>Les enfants ont compris que leur propre jardin était en réalité un lien avec le passé</text>
+            </page>
+            <page>
+                <num>10</num>
+                <image>2</image>
+                <text>Les enfants ont réalisé que leur propre jardin était bien plus qu'un simple espace extérieur</text>
+            </page>
+            <page>
+                <num>11</num>
+                <image>3</image>
+                <text>Il était rempli d'histoires et de mystères à découvrir Ils ont décidé de continuer à explorer et à préserver l'histoire de leur quartier</text>
+            </page>
+            <page>
+                <num>12</num>
+                <image>1</image>
+                <text>sachant que de nouvelles aventures les attendaient juste à leur propre porte</text>
             </page>
         </pages>
     </storyStructure>
@@ -222,165 +767,63 @@
         <pages>
             <page>
                 <num>1</num>
-                <image>25</image>
-                <text>Text_25</text>
+                <image>1</image>
+                <text>Dans le jardin de Lily juste derrière sa maison se trouvait un mystère qui attendait d'être résolu </text>
             </page>
             <page>
                 <num>2</num>
-                <image>26</image>
-                <text>Text_26</text>
-            </page>
-        </pages>
-    </storyStructure>
-
-    <storyStructure>
-        <id>13</id>
-        <cover>13</cover>
-        <title>Make Way for Ducklings</title>
-        <author>Robert McCloskey</author>
-        <pages>
-            <page>
-                <num>1</num>
-                <image>27</image>
-                <text>Text_27</text>
+                <image>2</image>
+                <text>Alors qu'elle creusait pour planter des fleurs Lily a découvert un vieux coffre enfoui dans la terre</text>
             </page>
             <page>
-                <num>2</num>
-                <image>28</image>
-                <text>Text_28</text>
-            </page>
-        </pages>
-    </storyStructure>
-
-    <storyStructure>
-        <id>14</id>
-        <cover>14</cover>
-        <title>Mike Mulligan and His Steam Shovel</title>
-        <author>Virginia Lee Burton</author>
-        <pages>
-            <page>
-                <num>1</num>
-                <image>29</image>
-                <text>Text_29</text>
+                <num>3</num>
+                <image>3</image>
+                <text>Qu'est-ce qui pouvait bien se trouver à l'intérieur ?</text>
             </page>
             <page>
-                <num>2</num>
-                <image>30</image>
-                <text>Text_30</text>
-            </page>
-        </pages>
-    </storyStructure>
-
-    <storyStructure>
-        <id>15</id>
-        <cover>15</cover>
-        <title>Frog and Toad Are Friends</title>
-        <author>Arnold Lobel</author>
-        <pages>
-            <page>
-                <num>1</num>
-                <image>31</image>
-                <text>Text_31</text>
+                <num>4</num>
+                <image>1</image>
+                <text>Avec l'aide de ses amis, Max et Mia, Lily a ouvert le coffre et a trouvé une vieille carte au trésor</text>
             </page>
             <page>
-                <num>2</num>
-                <image>32</image>
-                <text>Text_32</text>
-            </page>
-        </pages>
-    </storyStructure>
-
-    <storyStructure>
-        <id>16</id>
-        <cover>16</cover>
-        <title>Cloudy With a Chance of Meatballs</title>
-        <author>Judi Barrett</author>
-        <pages>
-            <page>
-                <num>1</num>
-                <image>33</image>
-                <text>Text_33</text>
+                <num>5</num>
+                <image>2</image>
+                <text>La carte indiquait des endroits secrets dans leur propre quartier !</text>
             </page>
             <page>
-                <num>2</num>
-                <image>34</image>
-                <text>Text_34</text>
-            </page>
-        </pages>
-    </storyStructure>
-
-    <storyStructure>
-        <id>17</id>
-        <cover>17</cover>
-        <title>The Little Engine That Could</title>
-        <author>Watty Piper</author>
-        <pages>
-            <page>
-                <num>1</num>
-                <image>35</image>
-                <text>Text_35</text>
+                <num>6</num>
+                <image>3</image>
+                <text>Ils ont commencé à chercher des indices et à suivre les instructions pour résoudre le mystère</text>
             </page>
             <page>
-                <num>2</num>
-                <image>36</image>
-                <text>Text_36</text>
-            </page>
-        </pages>
-    </storyStructure>
-
-    <storyStructure>
-        <id>18</id>
-        <cover>18</cover>
-        <title>The Snowy Day</title>
-        <author>Ezra Jack Keats</author>
-        <pages>
-            <page>
-                <num>1</num>
-                <image>37</image>
-                <text>Text_37</text>
+                <num>7</num>
+                <image>1</image>
+                <text> Au fur et à mesure que les enfants suivaient les indices, ils ont finalement découvert le secret caché depuis si longtemps</text>
             </page>
             <page>
-                <num>2</num>
-                <image>38</image>
-                <text>Text_38</text>
-            </page>
-        </pages>
-    </storyStructure>
-
-    <storyStructure>
-        <id>19</id>
-        <cover>19</cover>
-        <title>The Magic School Bus</title>
-        <author>Joanna Cole</author>
-        <pages>
-            <page>
-                <num>1</num>
-                <image>39</image>
-                <text>Text_39</text>
+                <num>8</num>
+                <image>2</image>
+                <text>Il s'agissait d'un trésor perdu datant de l'époque où leur quartier était une ville minière prospère</text>
             </page>
             <page>
-                <num>2</num>
-                <image>40</image>
-                <text>Text_40</text>
-            </page>
-        </pages>
-    </storyStructure>
-
-    <storyStructure>
-        <id>20</id>
-        <cover>20</cover>
-        <title>Madeline</title>
-        <author>Ludwig Bemelmans</author>
-        <pages>
-            <page>
-                <num>1</num>
-                <image>41</image>
-                <text>Text_41</text>
+                <num>9</num>
+                <image>3</image>
+                <text>Les enfants ont compris que leur propre jardin était en réalité un lien avec le passé</text>
             </page>
             <page>
-                <num>2</num>
-                <image>42</image>
-                <text>Text_42</text>
+                <num>10</num>
+                <image>2</image>
+                <text>Les enfants ont réalisé que leur propre jardin était bien plus qu'un simple espace extérieur</text>
+            </page>
+            <page>
+                <num>11</num>
+                <image>3</image>
+                <text>Il était rempli d'histoires et de mystères à découvrir Ils ont décidé de continuer à explorer et à préserver l'histoire de leur quartier</text>
+            </page>
+            <page>
+                <num>12</num>
+                <image>1</image>
+                <text>sachant que de nouvelles aventures les attendaient juste à leur propre porte</text>
             </page>
         </pages>
     </storyStructure>

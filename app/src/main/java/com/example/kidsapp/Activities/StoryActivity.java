@@ -35,9 +35,11 @@ public class StoryActivity extends AppCompatActivity implements TextToSpeech.OnI
         Intent intent = getIntent();
         Bundle args = intent.getBundleExtra("Pages");
         ArrayList<Page> pages = (ArrayList<Page>) args.getSerializable("Array");
+
         viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
             public void onPageSelected(int position) {
+                speakOut(pages.get(position).getText());
                 }
 
             @Override
@@ -78,13 +80,6 @@ public class StoryActivity extends AppCompatActivity implements TextToSpeech.OnI
     public void onInit(int status) {
         if (status == TextToSpeech.SUCCESS) {
             int result = textToSpeech.setLanguage(Locale.FRENCH);
-
-            if (result == TextToSpeech.LANG_MISSING_DATA || result == TextToSpeech.LANG_NOT_SUPPORTED) {
-                Log.e("TTS", "Language not supported");
-            } else {
-                // Text-to-speech is ready
-                speakOut("nothing");
-            }
         } else {
             Log.e("TTS", "Initialization failed");
         }

@@ -1,6 +1,8 @@
 package com.example.kidsapp.Fragments;
 
 import android.content.Intent;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -12,52 +14,79 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
+import com.example.kidsapp.Activities.StoryActivity;
+import com.example.kidsapp.Adapters.FavAdapter;
 import com.example.kidsapp.Adapters.StoryAdapter;
 import com.example.kidsapp.Classes.Page;
-import com.example.kidsapp.R;
-import com.example.kidsapp.Activities.StoryActivity;
 import com.example.kidsapp.Classes.StoryStructure;
+import com.example.kidsapp.FavoritesDB;
+import com.example.kidsapp.R;
 
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class FavoritesFragment extends Fragment {
 
-    private RecyclerView mRecyclerView;
+    RecyclerView recyclerView;
 
-    private StoryAdapter mAdapter;
+    FavoritesDB favDB;
+
+    List<StoryStructure> favStories = new ArrayList<>();
+
+    FavAdapter favAdapter;
 
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
+
         View view = inflater.inflate(R.layout.fragment_favorites, container, false);
-        mRecyclerView = view.findViewById(R.id.favs_recycler);
-        mRecyclerView.setLayoutManager(new GridLayoutManager(getActivity(), 3));
 
-        List<StoryStructure> items = new ArrayList<>();
-        mAdapter = new StoryAdapter(items, new StoryAdapter.ItemClickListener() {
-            @Override
-            public void onItemClick(StoryStructure item) {
-                showToast(item.getTitle() + "Clicked");
-                ArrayList<Page> pages = (ArrayList<Page>) item.getPages();
-                pages.forEach(Page -> {
-                    Page.setImage(getContext().getResources().getIdentifier("image" + Page.getImage(), "drawable", getContext().getPackageName()));
-                });
-                Intent intent = new Intent(getActivity(), StoryActivity.class);
-                Bundle args = new Bundle();
-                args.putSerializable("Array", (Serializable) item.getPages());
-                intent.putExtra("Pages", args);
+        favDB = new FavoritesDB(getActivity());
 
-                startActivity(intent);
-            }
-        });
-        mRecyclerView.setAdapter(mAdapter);
+        recyclerView = view.findViewById(R.id.favs_recycler);
+
+        recyclerView.setLayoutManager(new GridLayoutManager(getActivity(), 3));
+
+        loadData();
+
         return view;
     }
-    private void showToast(String message) {
-        Toast.makeText(getActivity(), message, Toast.LENGTH_SHORT).show();
+
+    private void showToast(String s) {
+        Toast.makeText(getActivity(), s, Toast.LENGTH_SHORT).show();
     }
+
+    private void loadData() {
+        if (favStories != null){
+            favStories.clear();
+        }
+        SQLiteDatabase db = favDB.getReadableDatabase();
+        Cursor cursor = favDB.select_all_favorite_list();
+        try {
+            while (cursor.moveToNext()){
+                String title = cursor.getString(cursor.getColumnIndex(FavoritesDB.ITEM_TITLE));
+                String author = cursor.getString(cursor.getColumnIndex(FavoritesDB.ITEM_AUTHOR));
+                int image = Integer.parseInt(cursor.getString(cursor.getColumnIndex(FavoritesDB.ITEM_IMAGE)));
+                Integer id = Integer.parseInt(cursor.getString(cursor.getColumnIndex(FavoritesDB.ID)));
+                String fav = cursor.getString(cursor.getColumnIndex(FavoritesDB.FAVORITE_STATUS));
+                StoryStructure story = new StoryStructure( id, image,title, author,fav);
+                favStories.add(story);
+            }
+        }
+        finally {
+            if (cursor != null && cursor.isClosed())
+                cursor.close();
+            db.close();
+        }
+        favAdapter = new FavAdapter(getActivity(),favStories);
+
+        recyclerView.setAdapter(favAdapter);
+
+    }
+
+
+
 }

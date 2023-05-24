@@ -149,12 +149,11 @@ public class HomeFragment extends Fragment {
                         break;
 
                 }
-                Log.e("Tnaket","stories_list");
                 eventType = parser.next();
 
             };
             items = stories_list;
-            System.out.println("items size: "+ items.size());
+
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -166,7 +165,7 @@ public class HomeFragment extends Fragment {
 
             @Override
             public void onItemClick(StoryStructure item) {
-                showToast(item.getTitle() + "Clicked");
+                showToast(item.getTitle() + " Story");
                 ArrayList<Page> pages = (ArrayList<Page>) item.getPages();
                 pages.forEach(Page -> {
                     Page.setImage(getContext().getResources().getIdentifier("image" + Page.getImage(), "drawable", getContext().getPackageName()));

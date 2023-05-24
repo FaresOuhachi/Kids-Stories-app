@@ -52,7 +52,7 @@ public class StoryAdapter extends RecyclerView.Adapter<StoryAdapter.ViewHolder> 
 
 
     private void createTableFirstStart() {
-        System.out.println(db.getDatabaseName());
+
         db.insertEmpty();
         SharedPreferences prefs = context.getSharedPreferences("prefs", Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = prefs.edit();
@@ -65,14 +65,14 @@ public class StoryAdapter extends RecyclerView.Adapter<StoryAdapter.ViewHolder> 
     public void onBindViewHolder(ViewHolder holder, int position) {
         StoryStructure item = items.get(position);
         holder.favBtn.setBackgroundTintList(null);
-        readCursorData(item, holder);
-        holder.imageView.setImageResource(R.drawable.cover3);
-//        holder.imageView.setImageResource(item.getImageResource());
         holder.title.setText(item.getTitle());
         holder.author.setText(item.getAuthor());
+
+        holder.imageView.setImageResource(items.get(position).getImageResource());
         holder.itemView.setOnClickListener(view -> {
             mItemListener.onItemClick(items.get(position));
         });
+        readCursorData(item, holder);
     }
 
     private void readCursorData(StoryStructure item, ViewHolder holder) {
@@ -82,13 +82,12 @@ public class StoryAdapter extends RecyclerView.Adapter<StoryAdapter.ViewHolder> 
             while (cursor.moveToNext()) {
                 Integer column = cursor.getColumnIndex(FavoritesDB.FAVORITE_STATUS);
                 String item_fav_status = cursor.getString(column);
-                System.out.println("HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH item_fav_status: " + item_fav_status);
                 item.setFavStatus(item_fav_status);
 
                 if (item_fav_status != null && item_fav_status.equals("1")) {
                     holder.favBtn.setBackgroundResource(R.drawable.heart);
                 } else if (item_fav_status != null && item_fav_status.equals("0")) {
-                    holder.favBtn.setBackgroundResource(R.drawable.no_heart);
+                    holder.favBtn.setBackgroundResource(R.drawable.heart_stroke);
                 }
             }
         } finally {
@@ -129,12 +128,12 @@ public class StoryAdapter extends RecyclerView.Adapter<StoryAdapter.ViewHolder> 
 
                     if (item.getFavStatus().equals("0")) {
                         item.setFavStatus("1");
-                        db.insertIntoTheDatabase(item.getTitle(), item.getAuthor(),item.getImageResource(),item.getId().toString(),  item.getFavStatus());
+                        db.insertIntoTheDatabase(item.getTitle(), item.getAuthor(),item.getImageResource(),String.valueOf(item.getId()),  item.getFavStatus());
                         favBtn.setBackgroundResource(R.drawable.heart);
                     } else {
                         item.setFavStatus("0");
-                        db.remove_fav(item.getTitle());
-                        favBtn.setBackgroundResource(R.drawable.no_heart);
+                        db.remove_fav(String.valueOf(item.getId()));
+                        favBtn.setBackgroundResource(R.drawable.heart_stroke);
                     }
                 }
             });
